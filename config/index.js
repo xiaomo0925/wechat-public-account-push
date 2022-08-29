@@ -21,7 +21,7 @@ export const config = {
     // 所在省份
     PROVINCE: "四川",
     // 所在城市
-    CITY: "成都",
+    CITY: "九寨沟",
 
     /** 重要节日相关 */
 
