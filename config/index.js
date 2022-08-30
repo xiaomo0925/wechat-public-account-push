@@ -8,9 +8,9 @@ export const config = {
     // 公众号APP_SECRET
     APP_SECRET: "b0d0e3efc8d2ad013e6c32c950a4c299",
     // 模板消息id
-    TEMPLATE_ID: "uljbA6Eb147__8bL5JnspSizesLZ3cv7Vyj-Klelo0c",
+    TEMPLATE_ID: "YIi_qCGjNhWwWXxIzv2Nc9TOWbEbA6KlgutLB8HQ1JY",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
-    USERS: ["ol_M16H5B1jj5qzroObnnsS3jTY8","ol_M16KUJHjWHB6fH9yGR-PamtNg"],
+    USERS: ["ol_M16H5B1jj5qzroObnnsS3jTY8"],
      
     /**
      * 信息配置
@@ -30,7 +30,7 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1998", "date": "09-25"},
+      {"type": "生日", "name": "我的宝宝", "year": "1998", "date": "09-25"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
