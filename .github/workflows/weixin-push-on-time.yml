@@ -3,11 +3,17 @@
 
 name: weixin-push-on-time
 
+environment:
+Asia/Shanghai
+
 on:
   workflow_dispatch:
   schedule:
+  environment:    #设置东八时区上海时间
+    - SET_CONTAINER_TIMEZONE=true
+    - CONTAINER_TIMEZONE=Asia/Shanghai
     # 每天国际时间0:00 运行, 即北京时间 8:00 运行
-    - cron: '0 0 * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   build:
